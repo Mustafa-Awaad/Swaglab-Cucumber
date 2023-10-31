@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="20.639">
+    <testcase classname="Login with invalid credentials" name="login with valid user name and invalid password" time="13.957">
+        <system-out><![CDATA[When Enter valid user name and invalid password.............................passed
+Then verify error message of invalid password...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login with invalid credentials" name="login with invalid user name and valid password" time="2.721">
+        <system-out><![CDATA[When Enter invalid user name and valid password.............................passed
+Then verify error message of invalid username...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Successful purchase" name="Login Successfully" time="3.667">
+        <system-out><![CDATA[When Enter valid username and valid password................................passed
+Then verify login successfully..............................................passed
+And add the most two products into cart.....................................passed
+And click on the cart.......................................................passed
+Then Verify navigation to cart page and existence of selected products......passed
+And click on checkout button................................................passed
+Then verify navigation to checkout page.....................................passed
+And Enter first name,last name and postal code..............................passed
+Then verify navigation to overview page and amount of products are selected.passed
+And click on finish button..................................................passed
+Then verify finish the order................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
